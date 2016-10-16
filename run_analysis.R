@@ -50,3 +50,6 @@ colnames(wrdat) <- gsub("  ","",gsub("\\."," ",colnames(wrdat)))
 #5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 ## grouping by activity and subject  
 avgdata <- wrdat %>%  group_by(subj, activity)%>% summarise_each(funs(mean))
+
+# Create file
+write.table(avgdata, file = "avgdata.txt", row.names = F)
