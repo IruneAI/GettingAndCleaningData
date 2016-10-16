@@ -26,9 +26,11 @@ The possible values for Variable Activity Name are:
 | tGravityAcc std-X 	| numeric | Average of the standard deviation of the Gravity acceleration in dimension X |
 | tGravityAcc std-Y 	| numeric | Average of the standard deviation of the Gravity acceleration in dimension Y |
 | tGravityAcc std-Z 	| numeric | Average of the standard deviation of the Gravity acceleration in dimension Z |
+
 ...
 ...
 ...
+
 | tBodyAccJerk mean-X 	| numeric | Average of the mean of the body acceleration Jerk signal in dimension X |
 | tBodyAccJerk mean-Y 	| numeric | Average of the mean of the body acceleration Jerk signal in dimension Y |
 | tBodyAccJerk mean-Z 	| numeric | Average of the mean of the body acceleration Jerk signal in dimension Z |
